@@ -15,6 +15,7 @@
     "@remotion/captions": "4.0.539",
     "@remotion/cli": "4.0.539",
     "@remotion/google-fonts": "4.0.539",
+    "@remotion/install-whisper-cpp": "4.0.539",
     "@remotion/layout-utils": "4.0.539",
     "@remotion/lottie": "4.0.539",
     "@remotion/media": "4.0.539",
@@ -45,7 +46,9 @@
     "dev": "remotion studio",
     "build": "remotion bundle",
     "upgrade": "remotion upgrade",
-    "lint": "eslint src && tsc"
+    "lint": "eslint src && tsc",
+    "whisper:setup": "node scripts/whisper-setup.mjs",
+    "transcribe": "node scripts/transcribe.mjs"
   },
   "allowScripts": {
     "esbuild": false

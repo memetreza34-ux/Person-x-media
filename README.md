@@ -37,6 +37,22 @@ npx remotion render Showcase out/showcase.mp4
 
 Außerdem: `ffmpeg` und Manim (für Mathe-/Technik-Animationen) systemweit.
 
+## Untertitel mit Whisper
+
+Einmalig Whisper.cpp und das Modell `large-v3-turbo` laden (~1,6 GB, landet in `whisper.cpp/`):
+
+```bash
+npm run whisper:setup
+```
+
+Danach eine Sprachaufnahme transkribieren (Deutsch, Wort-Timing):
+
+```bash
+npm run transcribe -- public/stimme.mp3
+```
+
+Ergebnis: `public/stimme.json` mit Captions für `@remotion/captions`.
+
 ## Struktur
 
 - `src/Root.tsx` – alle Kompositionen
