@@ -1,7 +1,7 @@
 {
   "name": "Person-x-media",
   "version": "1.0.0",
-  "description": "My Remotion video",
+  "description": "Erklär-Kanal mit Max – Remotion 2D",
   "repository": {},
   "license": "UNLICENSED",
   "engines": {
@@ -48,7 +48,9 @@
     "upgrade": "remotion upgrade",
     "lint": "eslint src && tsc",
     "whisper:setup": "node scripts/whisper-setup.mjs",
-    "transcribe": "node scripts/transcribe.mjs"
+    "transcribe": "node scripts/transcribe.mjs",
+    "still": "remotion still",
+    "render": "remotion render"
   },
   "allowScripts": {
     "esbuild": false

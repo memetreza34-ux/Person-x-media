@@ -55,6 +55,11 @@ Ergebnis: `public/stimme.json` mit Captions für `@remotion/captions`.
 
 ## Struktur
 
-- `src/Root.tsx` – alle Kompositionen
-- `src/Showcase.tsx` – Testvideo mit drei Szenen
-- `src/components/Stickman.tsx` – animierte Figur (laufen, sprechen)
+Siehe [CLAUDE.md](CLAUDE.md). Kurz:
+
+- `src/characters/` – Max (2D) und Bewegungs-Helfer
+- `src/world2d/` – Stadt mit Orten und Tag/Nacht
+- `src/ui/` – Einblendungen (Uhr, Stempel, Infokarte, Untertitel …)
+- `src/episodes/` – Folgen
+- `src/experiments/` – alte 3D-Versuche
+- `.claude/skills/` – Remotion-Skills (offiziell, v4.0.539) und Projekt-Skill `neue-folge`

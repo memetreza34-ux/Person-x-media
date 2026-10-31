@@ -6,7 +6,7 @@ import { TransitionSeries, linearTiming, springTiming } from "@remotion/transiti
 import { fade } from "@remotion/transitions/fade";
 import { slide } from "@remotion/transitions/slide";
 import { AbsoluteFill, interpolate, spring, useCurrentFrame, useVideoConfig } from "remotion";
-import { Stickman } from "./components/Stickman";
+import { Stickman } from "./Stickman";
 
 const { fontFamily } = loadFont("normal", { weights: ["800"] });
 
